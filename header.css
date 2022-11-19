@@ -1,0 +1,57 @@
+.social-media-links {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2px;
+    background-color: white;
+}
+
+.linkedin-icon {
+    height: 40px;
+}
+
+.github-icon {
+    margin-top: 4px;
+    height: 30px;
+}
+
+.twitter-icon {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 30px;
+}
+
+.facebook-icon {
+    margin-top: 2px;
+    height: 33px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .social-media-links {
+        height: 30px;
+    }
+
+    .linkedin-icon {
+        margin-bottom: 5px;
+        height: 30px;
+    }
+    
+    .github-icon {
+        margin-bottom: 9px;
+        height: 21px;
+    }
+    
+    .twitter-icon {
+        margin-bottom: 9px;
+        height: 20px;
+    }
+    
+    .facebook-icon {
+        margin-left: 3px;
+        margin-bottom: 7px;
+        height: 24px;
+    }
+}
+
